@@ -3,7 +3,7 @@ package session
 import (
 	"context"
 
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/AikoCute-Offical/Aiko-Core/features/routing"
 )
 
 type sessionKey int

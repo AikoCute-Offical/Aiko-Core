@@ -1,8 +1,8 @@
 package blackhole
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
 )
 
 const (

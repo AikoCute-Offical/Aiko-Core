@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/cache"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/cache"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
 )
 
 type Holder struct {

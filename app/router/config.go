@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	"github.com/AikoCute-Offical/Aiko-Core/features/routing"
 )
 
 // CIDRList is an alias of []*CIDR to provide sort.Interface.

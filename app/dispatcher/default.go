@@ -1,6 +1,6 @@
 package dispatcher
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,21 +9,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	routing_session "github.com/xtls/xray-core/features/routing/session"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/log"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/session"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	"github.com/AikoCute-Offical/Aiko-Core/features/policy"
+	"github.com/AikoCute-Offical/Aiko-Core/features/routing"
+	routing_session "github.com/AikoCute-Offical/Aiko-Core/features/routing/session"
+	"github.com/AikoCute-Offical/Aiko-Core/features/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/transport"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/pipe"
 )
 
 var errSniffingTimeout = newError("timeout on sniffing")

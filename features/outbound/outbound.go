@@ -3,9 +3,9 @@ package outbound
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features"
-	"github.com/xtls/xray-core/transport"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/features"
+	"github.com/AikoCute-Offical/Aiko-Core/transport"
 )
 
 // Handler is the interface for handlers that process outbound connections.

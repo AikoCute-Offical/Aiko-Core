@@ -5,9 +5,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/features/stats"
 )
 
 // BufferToBytesWriter is a Writer that writes alloc.Buffer into underlying writer.

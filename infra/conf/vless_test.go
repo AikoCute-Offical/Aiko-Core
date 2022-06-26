@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/inbound"
-	"github.com/xtls/xray-core/proxy/vless/outbound"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	. "github.com/AikoCute-Offical/Aiko-Core/infra/conf"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vless"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vless/inbound"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vless/outbound"
 )
 
 func TestVLessOutbound(t *testing.T) {

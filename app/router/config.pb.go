@@ -7,7 +7,7 @@
 package router
 
 import (
-	net "github.com/xtls/xray-core/common/net"
+	net "github.com/AikoCute-Offical/Aiko-Core/common/net"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

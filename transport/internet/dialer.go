@@ -3,16 +3,16 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/dice"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net/cnc"
+	"github.com/AikoCute-Offical/Aiko-Core/common/session"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	"github.com/AikoCute-Offical/Aiko-Core/transport"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/pipe"
 )
 
 // Dialer is the interface for dialing outbound connections.

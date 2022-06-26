@@ -1,8 +1,8 @@
 package api
 
 import (
-	statsService "github.com/xtls/xray-core/app/stats/command"
-	"github.com/xtls/xray-core/main/commands/base"
+	statsService "github.com/AikoCute-Offical/Aiko-Core/app/stats/command"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
 )
 
 var cmdGetStats = &base.Command{

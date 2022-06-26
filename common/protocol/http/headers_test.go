@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	. "github.com/AikoCute-Offical/Aiko-Core/common/protocol/http"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	. "github.com/xtls/xray-core/common/protocol/http"
 )
 
 func TestParseXForwardedFor(t *testing.T) {

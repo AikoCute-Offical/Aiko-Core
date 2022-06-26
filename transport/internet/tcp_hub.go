@@ -3,8 +3,8 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
 )
 
 var transportListenerCache = make(map[string]ListenFunc)

@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/domainsocket"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
+	. "github.com/AikoCute-Offical/Aiko-Core/transport/internet/domainsocket"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
 )
 
 func TestListen(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	. "github.com/xtls/xray-core/common/retry"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	. "github.com/AikoCute-Offical/Aiko-Core/common/retry"
 )
 
 var errorTestOnly = errors.New("this is a fake error")

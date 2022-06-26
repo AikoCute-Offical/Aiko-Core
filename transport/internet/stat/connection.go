@@ -3,7 +3,7 @@ package stat
 import (
 	"net"
 
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/features/stats"
 )
 
 type Connection interface {

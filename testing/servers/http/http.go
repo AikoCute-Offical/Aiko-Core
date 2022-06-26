@@ -3,7 +3,7 @@ package tcp
 import (
 	"net/http"
 
-	"github.com/xtls/xray-core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
 )
 
 type Server struct {

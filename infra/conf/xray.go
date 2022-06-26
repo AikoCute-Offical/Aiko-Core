@@ -7,13 +7,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/AikoCute-Offical/Aiko-Core/app/dispatcher"
+	"github.com/AikoCute-Offical/Aiko-Core/app/proxyman"
+	"github.com/AikoCute-Offical/Aiko-Core/app/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	core "github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/xtls"
 )
 
 var (

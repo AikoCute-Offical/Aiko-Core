@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/dice"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
 )
 
 type ValidationStrategy interface {

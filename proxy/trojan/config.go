@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	fmt "fmt"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

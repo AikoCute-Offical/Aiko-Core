@@ -1,12 +1,12 @@
 package stats
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/features"
 )
 
 // Counter is the interface for stats counters.

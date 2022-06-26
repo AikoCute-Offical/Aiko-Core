@@ -3,12 +3,12 @@ package toml
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/cmdarg"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/infra/conf"
+	"github.com/AikoCute-Offical/Aiko-Core/infra/conf/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/main/confloader"
 )
 
 func init() {

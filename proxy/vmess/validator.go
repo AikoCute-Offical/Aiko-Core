@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/proxy/vmess/aead"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/dice"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/common/task"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vmess/aead"
 )
 
 const (

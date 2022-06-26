@@ -3,10 +3,10 @@ package mux
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/crypto"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
 )
 
 // PacketReader is an io.Reader that reads whole chunk of Mux frames every time.

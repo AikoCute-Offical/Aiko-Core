@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/app/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/app/router"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
 )
 
 type NameServerConfig struct {

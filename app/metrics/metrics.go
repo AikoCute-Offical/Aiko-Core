@@ -7,15 +7,15 @@ import (
 	_ "net/http/pprof"
 	"strings"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
-	"github.com/xtls/xray-core/features/outbound"
-	feature_stats "github.com/xtls/xray-core/features/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/app/observatory"
+	"github.com/AikoCute-Offical/Aiko-Core/app/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/signal/done"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/features/extension"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	feature_stats "github.com/AikoCute-Offical/Aiko-Core/features/stats"
 )
 
 type MetricsHandler struct {

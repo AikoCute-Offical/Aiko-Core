@@ -5,10 +5,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	. "github.com/xtls/xray-core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/testing/servers/tcp"
+	. "github.com/AikoCute-Offical/Aiko-Core/transport/internet"
 )
 
 func TestSockOptMark(t *testing.T) {

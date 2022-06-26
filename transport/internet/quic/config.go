@@ -5,9 +5,9 @@ import (
 	"crypto/cipher"
 	"crypto/sha256"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

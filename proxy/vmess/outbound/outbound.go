@@ -1,6 +1,6 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,23 +9,23 @@ import (
 	"hash/crc64"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/xudp"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/retry"
+	"github.com/AikoCute-Offical/Aiko-Core/common/session"
+	"github.com/AikoCute-Offical/Aiko-Core/common/signal"
+	"github.com/AikoCute-Offical/Aiko-Core/common/task"
+	"github.com/AikoCute-Offical/Aiko-Core/common/xudp"
+	core "github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/features/policy"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vmess"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vmess/encoding"
+	"github.com/AikoCute-Offical/Aiko-Core/transport"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
 )
 
 // Handler is an outbound connection handler for VMess protocol.

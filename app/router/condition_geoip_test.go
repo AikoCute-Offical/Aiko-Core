@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/app/router"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform/filesystem"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
 )
 
 func init() {

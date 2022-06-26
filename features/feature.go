@@ -1,8 +1,8 @@
 package features
 
-import "github.com/xtls/xray-core/common"
+import "github.com/AikoCute-Offical/Aiko-Core/common"
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 // Feature is the interface for Xray features. All features must implement this interface.
 // All existing features have an implementation in app directory. These features can be replaced by third-party ones.

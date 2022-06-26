@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	. "github.com/AikoCute-Offical/Aiko-Core/common/task"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/task"
 )
 
 func TestExecuteParallel(t *testing.T) {

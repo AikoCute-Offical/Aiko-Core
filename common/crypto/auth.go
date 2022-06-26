@@ -5,10 +5,10 @@ import (
 	"io"
 	"math/rand"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/bytespool"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/bytespool"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
 )
 
 type BytesGenerator func() []byte

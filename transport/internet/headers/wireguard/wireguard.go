@@ -3,7 +3,7 @@ package wireguard
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
 )
 
 type Wireguard struct{}

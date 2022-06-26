@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	dns_feature "github.com/xtls/xray-core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	dns_feature "github.com/AikoCute-Offical/Aiko-Core/features/dns"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

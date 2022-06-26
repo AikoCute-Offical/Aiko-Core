@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/xtls/xray-core/main/commands/base"
-	_ "github.com/xtls/xray-core/main/distro/all"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
+	_ "github.com/AikoCute-Offical/Aiko-Core/main/distro/all"
 )
 
 func main() {

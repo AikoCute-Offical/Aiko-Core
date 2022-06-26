@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/features"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform"
+	"github.com/AikoCute-Offical/Aiko-Core/features"
 )
 
 // Timeout contains limits for connection timeout.

@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/app/log"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	clog "github.com/AikoCute-Offical/Aiko-Core/common/log"
+	"github.com/AikoCute-Offical/Aiko-Core/testing/mocks"
 	"github.com/golang/mock/gomock"
-	"github.com/xtls/xray-core/app/log"
-	"github.com/xtls/xray-core/common"
-	clog "github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/testing/mocks"
 )
 
 func TestCustomLogHandler(t *testing.T) {

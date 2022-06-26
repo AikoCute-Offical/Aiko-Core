@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/infra/conf"
+	"github.com/AikoCute-Offical/Aiko-Core/infra/conf/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
 	"google.golang.org/protobuf/proto"
 )
 

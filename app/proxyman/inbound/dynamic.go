@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/app/proxyman"
+	"github.com/AikoCute-Offical/Aiko-Core/common/dice"
+	"github.com/AikoCute-Offical/Aiko-Core/common/mux"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/task"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
 )
 
 type DynamicInboundHandler struct {

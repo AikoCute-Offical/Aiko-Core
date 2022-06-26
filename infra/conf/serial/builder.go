@@ -3,9 +3,9 @@ package serial
 import (
 	"io"
 
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/infra/conf"
+	"github.com/AikoCute-Offical/Aiko-Core/main/confloader"
 )
 
 func BuildConfig(files []string, formats []string) (*core.Config, error) {

@@ -4,7 +4,7 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
 )
 
 // NewAesDecryptionStream creates a new AES encryption stream based on given key and IV.

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dns/fakedns"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/app/dns/fakedns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
 )
 
 type FakeDNSPoolElementConfig struct {

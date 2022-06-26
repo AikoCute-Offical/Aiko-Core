@@ -13,10 +13,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/AikoCute-Offical/Aiko-Core/common/cmdarg"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
 )
 
 var cmdRun = &base.Command{

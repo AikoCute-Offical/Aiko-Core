@@ -4,10 +4,10 @@ import (
 	"crypto/rand"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/shadowsocks"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
 )
 
 func TestAEADCipherUDP(t *testing.T) {

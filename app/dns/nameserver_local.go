@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/dns/localdns"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns/localdns"
 )
 
 // LocalNameServer is an wrapper over local DNS feature.

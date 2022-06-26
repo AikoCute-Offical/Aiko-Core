@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
 )
 
 func init() {

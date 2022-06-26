@@ -3,8 +3,8 @@ package buf
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common/bytespool"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/bytespool"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
 )
 
 const (

@@ -3,11 +3,11 @@ package command
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/features/inbound"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy"
 	grpc "google.golang.org/grpc"
 )
 

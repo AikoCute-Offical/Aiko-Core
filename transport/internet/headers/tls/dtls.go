@@ -3,8 +3,8 @@ package tls
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/dice"
 )
 
 // DTLS writes header as DTLS. See https://tools.ietf.org/html/rfc6347

@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/testing/servers/tcp"
+	. "github.com/AikoCute-Offical/Aiko-Core/transport/internet"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	. "github.com/xtls/xray-core/transport/internet"
 )
 
 func TestTCPFastOpen(t *testing.T) {

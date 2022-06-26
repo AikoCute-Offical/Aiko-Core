@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,24 +9,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/core"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/common/log"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/session"
+	"github.com/AikoCute-Offical/Aiko-Core/common/signal"
+	"github.com/AikoCute-Offical/Aiko-Core/common/task"
+	"github.com/AikoCute-Offical/Aiko-Core/common/uuid"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	feature_inbound "github.com/AikoCute-Offical/Aiko-Core/features/inbound"
+	"github.com/AikoCute-Offical/Aiko-Core/features/policy"
+	"github.com/AikoCute-Offical/Aiko-Core/features/routing"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vmess"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/vmess/encoding"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
 )
 
 var (

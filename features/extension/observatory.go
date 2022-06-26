@@ -3,8 +3,8 @@ package extension
 import (
 	"context"
 
+	"github.com/AikoCute-Offical/Aiko-Core/features"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/features"
 )
 
 type Observatory interface {

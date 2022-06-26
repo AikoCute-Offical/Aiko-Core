@@ -5,10 +5,10 @@ package conf
 import (
 	"strings"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/shadowsocks"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
 )
 
 func cipherFromString(c string) shadowsocks.CipherType {

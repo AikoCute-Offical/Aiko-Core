@@ -1,9 +1,9 @@
 package dns
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/strmatcher"
+	"github.com/AikoCute-Offical/Aiko-Core/common/uuid"
 )
 
 var typeMap = map[DomainMatchingType]strmatcher.Type{

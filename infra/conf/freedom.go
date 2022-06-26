@@ -4,10 +4,10 @@ import (
 	"net"
 	"strings"
 
+	v2net "github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/freedom"
 	"github.com/golang/protobuf/proto"
-	v2net "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy/freedom"
 )
 
 type FreedomConfig struct {

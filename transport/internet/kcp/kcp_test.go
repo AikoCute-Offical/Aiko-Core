@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
+	. "github.com/AikoCute-Offical/Aiko-Core/transport/internet/kcp"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/stat"
 	"golang.org/x/sync/errgroup"
 )
 

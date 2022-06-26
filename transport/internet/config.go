@@ -1,8 +1,8 @@
 package internet
 
 import (
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/features"
 )
 
 type ConfigCreator func() interface{}

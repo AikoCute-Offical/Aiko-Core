@@ -3,9 +3,9 @@ package kcp_test
 import (
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	. "github.com/AikoCute-Offical/Aiko-Core/transport/internet/kcp"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/transport/internet/kcp"
 )
 
 func TestSimpleAuthenticator(t *testing.T) {

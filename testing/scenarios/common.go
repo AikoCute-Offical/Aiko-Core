@@ -14,17 +14,17 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AikoCute-Offical/Aiko-Core/app/dispatcher"
+	"github.com/AikoCute-Offical/Aiko-Core/app/proxyman"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/common/log"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/retry"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/common/units"
+	core "github.com/AikoCute-Offical/Aiko-Core/core"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/units"
-	core "github.com/xtls/xray-core/core"
 )
 
 func xor(b []byte) []byte {

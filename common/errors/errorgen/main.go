@@ -26,7 +26,7 @@ func main() {
 
 	fmt.Fprintf(file, `package %s
 
-import "github.com/xtls/xray-core/common/errors"
+import "github.com/AikoCute-Offical/Aiko-Core/common/errors"
 
 type errPathObjHolder struct{}
 

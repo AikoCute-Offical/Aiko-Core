@@ -7,7 +7,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
 )
 
 const (

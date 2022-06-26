@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/AikoCute-Offical/Aiko-Core/core"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
 )
 
 var cmdVersion = &base.Command{

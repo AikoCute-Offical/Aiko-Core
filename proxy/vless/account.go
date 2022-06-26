@@ -1,8 +1,8 @@
 package vless
 
 import (
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/uuid"
 )
 
 // AsAccount implements protocol.Account.AsAccount().

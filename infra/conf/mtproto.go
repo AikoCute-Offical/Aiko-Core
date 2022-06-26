@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/proxy/mtproto"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/mtproto"
 )
 
 type MTProtoAccount struct {

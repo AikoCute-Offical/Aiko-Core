@@ -1,14 +1,14 @@
 // Package session provides functions for sessions of incoming requests.
-package session // import "github.com/xtls/xray-core/common/session"
+package session // import "github.com/AikoCute-Offical/Aiko-Core/common/session"
 
 import (
 	"context"
 	"math/rand"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/signal"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol"
+	"github.com/AikoCute-Offical/Aiko-Core/common/signal"
 )
 
 // ID of a session.

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	. "github.com/AikoCute-Offical/Aiko-Core/common/serial"
 	"github.com/google/go-cmp/cmp"
-	. "github.com/xtls/xray-core/common/serial"
 )
 
 func TestToString(t *testing.T) {

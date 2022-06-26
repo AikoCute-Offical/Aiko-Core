@@ -6,17 +6,17 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/dns/localdns"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/serial"
+	"github.com/AikoCute-Offical/Aiko-Core/features"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns/localdns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/inbound"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	"github.com/AikoCute-Offical/Aiko-Core/features/policy"
+	"github.com/AikoCute-Offical/Aiko-Core/features/routing"
+	"github.com/AikoCute-Offical/Aiko-Core/features/stats"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
 )
 
 // Server is an instance of Xray. At any time, there must be at most one Server instance running.

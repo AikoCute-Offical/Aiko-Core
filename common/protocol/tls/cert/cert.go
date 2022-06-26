@@ -12,10 +12,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 type Certificate struct {
 	// Cerificate in ASN.1 DER format

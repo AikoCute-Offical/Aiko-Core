@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/task"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	. "github.com/AikoCute-Offical/Aiko-Core/common/task"
 )
 
 func TestPeriodicTaskStop(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/AikoCute-Offical/Aiko-Core
 
 go 1.18
 

@@ -1,8 +1,8 @@
 package conf
 
 import (
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/grpc"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/transport/internet/grpc"
 )
 
 type GRPCConfig struct {

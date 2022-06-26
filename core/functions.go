@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/udp"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net/cnc"
+	"github.com/AikoCute-Offical/Aiko-Core/features/routing"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/udp"
 )
 
 // CreateObject creates a new object based on the given Xray instance and config. The Xray instance may be nil.

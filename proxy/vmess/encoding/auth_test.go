@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	. "github.com/AikoCute-Offical/Aiko-Core/proxy/vmess/encoding"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/proxy/vmess/encoding"
 )
 
 func TestFnvAuth(t *testing.T) {

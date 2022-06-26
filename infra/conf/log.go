@@ -3,8 +3,8 @@ package conf
 import (
 	"strings"
 
-	"github.com/xtls/xray-core/app/log"
-	clog "github.com/xtls/xray-core/common/log"
+	"github.com/AikoCute-Offical/Aiko-Core/app/log"
+	clog "github.com/AikoCute-Offical/Aiko-Core/common/log"
 )
 
 func DefaultLogConfig() *log.Config {

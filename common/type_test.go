@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/xtls/xray-core/common"
+	. "github.com/AikoCute-Offical/Aiko-Core/common"
 )
 
 type TConfig struct {

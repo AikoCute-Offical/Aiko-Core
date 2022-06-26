@@ -1,8 +1,8 @@
 package api
 
 import (
-	logService "github.com/xtls/xray-core/app/log/command"
-	"github.com/xtls/xray-core/main/commands/base"
+	logService "github.com/AikoCute-Offical/Aiko-Core/app/log/command"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
 )
 
 var cmdRestartLogger = &base.Command{

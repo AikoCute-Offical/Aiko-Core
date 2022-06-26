@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	. "github.com/AikoCute-Offical/Aiko-Core/infra/conf/json"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/infra/conf/json"
 )
 
 func TestReader(t *testing.T) {

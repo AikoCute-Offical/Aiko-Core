@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
 )
 
 // Packet is a UDP packet together with its source and destination address.

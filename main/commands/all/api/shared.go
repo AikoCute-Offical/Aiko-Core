@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/main/commands/base"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 )

@@ -6,8 +6,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/stat"
 )
 
 func (h *Handler) getUoTConnection(ctx context.Context, dest net.Destination) (stat.Connection, error) {

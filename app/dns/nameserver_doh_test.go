@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	. "github.com/AikoCute-Offical/Aiko-Core/app/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	dns_feature "github.com/AikoCute-Offical/Aiko-Core/features/dns"
 	"github.com/google/go-cmp/cmp"
-	. "github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	dns_feature "github.com/xtls/xray-core/features/dns"
 )
 
 func TestDOHNameServer(t *testing.T) {

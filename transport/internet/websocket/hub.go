@@ -11,13 +11,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	http_proto "github.com/AikoCute-Offical/Aiko-Core/common/protocol/http"
+	"github.com/AikoCute-Offical/Aiko-Core/common/session"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
+	v2tls "github.com/AikoCute-Offical/Aiko-Core/transport/internet/tls"
 	"github.com/gorilla/websocket"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	http_proto "github.com/xtls/xray-core/common/protocol/http"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	v2tls "github.com/xtls/xray-core/transport/internet/tls"
 )
 
 type requestHandler struct {

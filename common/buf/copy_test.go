@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/errors"
+	"github.com/AikoCute-Offical/Aiko-Core/testing/mocks"
 	"github.com/golang/mock/gomock"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/testing/mocks"
 )
 
 func TestReadError(t *testing.T) {

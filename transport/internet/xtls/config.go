@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/ocsp"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform/filesystem"
+	"github.com/AikoCute-Offical/Aiko-Core/common/protocol/tls/cert"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet"
+	"github.com/AikoCute-Offical/Aiko-Core/transport/internet/tls"
 	xtls "github.com/xtls/go"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/ocsp"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
 )
 
 var globalSessionCache = xtls.NewLRUClientSessionCache(128)

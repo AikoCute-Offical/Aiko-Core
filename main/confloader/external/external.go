@@ -1,6 +1,6 @@
 package external
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/AikoCute-Offical/Aiko-Core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/platform/ctlcmd"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/AikoCute-Offical/Aiko-Core/common/buf"
+	"github.com/AikoCute-Offical/Aiko-Core/common/platform/ctlcmd"
+	"github.com/AikoCute-Offical/Aiko-Core/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
 )
 
 // PickPort returns an unused UDP port in the system. The port returned is highly likely to be unused, but not guaranteed.

@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
+	. "github.com/AikoCute-Offical/Aiko-Core/app/router"
+	"github.com/AikoCute-Offical/Aiko-Core/common"
+	"github.com/AikoCute-Offical/Aiko-Core/common/net"
+	"github.com/AikoCute-Offical/Aiko-Core/common/session"
+	"github.com/AikoCute-Offical/Aiko-Core/features/dns"
+	"github.com/AikoCute-Offical/Aiko-Core/features/outbound"
+	routing_session "github.com/AikoCute-Offical/Aiko-Core/features/routing/session"
+	"github.com/AikoCute-Offical/Aiko-Core/testing/mocks"
 	"github.com/golang/mock/gomock"
-	. "github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	routing_session "github.com/xtls/xray-core/features/routing/session"
-	"github.com/xtls/xray-core/testing/mocks"
 )
 
 type mockOutboundManager struct {
