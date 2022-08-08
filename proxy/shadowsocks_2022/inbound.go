@@ -86,8 +86,10 @@ func (i *Inbound) Process(ctx context.Context, network net.Network, connection s
 				return returnError(err)
 			}
 			for _, buffer := range mb {
-				err = i.service.NewPacket(ctx, pc, B.As(buffer.Bytes()).ToOwned(), metadata)
+				packet := B.As(buffer.Bytes()).ToOwned()
+				err = i.service.NewPacket(ctx, pc, packet, metadata)
 				if err != nil {
+					packet.Release()
 					buf.ReleaseMulti(mb)
 					return err
 				}
@@ -150,7 +152,7 @@ func (i *Inbound) NewPacketConnection(ctx context.Context, conn N.PacketConn, me
 	return bufio.CopyPacketConn(ctx, conn, outConn)
 }
 
-func (i *Inbound) HandleError(err error) {
+func (i *Inbound) NewError(ctx context.Context, err error) {
 	if E.IsClosed(err) {
 		return
 	}

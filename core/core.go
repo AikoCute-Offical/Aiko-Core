@@ -18,9 +18,9 @@ import (
 )
 
 var (
-	version  = "1.0.1"
-	build    = "Aiko"
-	codename = "Aiko-Core, Penetrates Everything."
+	version  = "1.5.9"
+	build    = "Custom"
+	codename = "Xray, Penetrates Everything."
 	intro    = "A unified platform for anti-censorship."
 )
 
@@ -33,7 +33,7 @@ func Version() string {
 // VersionStatement returns a list of strings representing the full version info.
 func VersionStatement() []string {
 	return []string{
-		serial.Concat("Aiko ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
+		serial.Concat("Xray ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
 		intro,
 	}
 }

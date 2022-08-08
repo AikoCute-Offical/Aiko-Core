@@ -105,8 +105,10 @@ func (i *RelayInbound) Process(ctx context.Context, network net.Network, connect
 				return returnError(err)
 			}
 			for _, buffer := range mb {
-				err = i.service.NewPacket(ctx, pc, B.As(buffer.Bytes()).ToOwned(), metadata)
+				packet := B.As(buffer.Bytes()).ToOwned()
+				err = i.service.NewPacket(ctx, pc, packet, metadata)
 				if err != nil {
+					packet.Release()
 					buf.ReleaseMulti(mb)
 					return err
 				}
@@ -173,7 +175,7 @@ func (i *RelayInbound) NewPacketConnection(ctx context.Context, conn N.PacketCon
 	return bufio.CopyPacketConn(ctx, conn, outConn)
 }
 
-func (i *RelayInbound) HandleError(err error) {
+func (i *RelayInbound) NewError(ctx context.Context, err error) {
 	if E.IsClosed(err) {
 		return
 	}
